@@ -2,7 +2,7 @@
   	<modelVersion>4.0.0</modelVersion>
   	<groupId>com.ddominguezh</groupId>
   	<artifactId>cqrs-spring-client</artifactId>
-  	<version>0.0.3-SNAPSHOT</version>
+  	<version>0.0.1-SNAPSHOT</version>
   	<properties>
 		<java.version>11</java.version>
 		<maven.compiler.target>11</maven.compiler.target>
@@ -62,5 +62,13 @@
 	    	<url>packagecloud+https://packagecloud.io/ddominguezh/libs</url>
 	  	</snapshotRepository>
 	</distributionManagement-->
+	
+	<distributionManagement>
+	   	<repository>
+	     	<id>cqrs-spring-client</id>
+	     	<name>GitHub OWNER Apache Maven Packages</name>
+	     	<url>https://maven.pkg.github.com/ddominguezh/cqrs-spring-client</url>
+	   	</repository>
+	</distributionManagement>
 	
 </project>
